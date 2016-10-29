@@ -6,12 +6,12 @@ class Home extends React.Component {
         const style = {
             title: {
                 textAlign: 'center',
-                fontSize: 65,
+                fontSize: 60,
                 fontFamily: 'Satisfy'
             },
             description: {
                 textAlign: 'center',
-                fontSize: 25,
+                fontSize: 15,
                 paddingBottom: 20
             },
             skill: {
