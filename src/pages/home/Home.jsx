@@ -11,7 +11,7 @@ class Home extends React.Component {
             },
             description: {
                 textAlign: 'center',
-                fontSize: 15,
+                fontSize: 18,
                 paddingBottom: 20
             },
             skill: {
@@ -68,7 +68,7 @@ class Home extends React.Component {
                     </Highlight>
                 </div>
                 <div style={style.skill}>
-                    <p style={{paddingTop: 20, fontSize: 20}}>And many more, if you are interested you can check me out on</p>
+                    <p style={{paddingTop: 20, fontSize: 18}}>And many more, if you are interested you can check me out on</p>
                 </div>
 
                 <div style={style.contacts}>
@@ -78,7 +78,7 @@ class Home extends React.Component {
                     <a href="https://github.com/gigobyte">
                         <img style={style.image} src="images/github.png"></img>
                     </a>
-                    <p style={{fontSize: 20}}>or plain old email at s.iliev3@gmail.com</p>
+                    <p style={{fontSize: 18}}>or plain old email at s.iliev3@gmail.com</p>
                 </div>
             </div>
         )
