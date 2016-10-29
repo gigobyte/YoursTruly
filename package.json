@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "webpack-watch": "webpack -w",
-    "start": "node ./main",
-    "dev": "concurrent --kill-others \"npm run webpack-watch\" \"npm run start\"",
+    "express-server": "node ./main",
+    "start": "concurrent --kill-others \"npm run webpack-watch\" \"npm run express-server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
