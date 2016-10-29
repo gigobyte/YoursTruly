@@ -6,7 +6,7 @@ class Home extends React.Component {
         const style = {
             title: {
                 textAlign: 'center',
-                fontSize: 70,
+                fontSize: 65,
                 fontFamily: 'Satisfy'
             },
             description: {
@@ -16,7 +16,7 @@ class Home extends React.Component {
             },
             skill: {
                 textAlign: 'center',
-                width: '30%',
+                width: 600,
                 position: 'relative',
                 left: '50%',
                 transform: 'translate(-50%, 0)'
