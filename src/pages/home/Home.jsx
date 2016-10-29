@@ -11,8 +11,7 @@ class Home extends React.Component {
             },
             description: {
                 textAlign: 'center',
-                fontSize: 18,
-                paddingBottom: 20
+                fontSize: 18
             },
             skill: {
                 textAlign: 'center',
@@ -40,7 +39,7 @@ class Home extends React.Component {
                     I'm fascinated by all aspects of programming, but during the past couple of years <br></br>
                     I've focused myself on developing web applications. <br></br><br></br><br></br>
                     This page is written in React and Express, check out the <a href="https://github.com/gigobyte/YoursTruly">source</a>.<br></br>
-                Other things I have experience with include:
+                    Other things I have experience with include:
                 </p>
                 <div style={style.skill}>
                     <Highlight className='javascript'>
@@ -48,13 +47,13 @@ class Home extends React.Component {
                     </Highlight>
                 </div>
                 <div style={style.skill}>
-                    <Highlight className='python'>
-                        {"def some(): return 'Python too!'"}
+                    <Highlight className='javascript'>
+                        {"let frameworks = ['AngularJS', 'React', 'Meteor', 'jQuery']"}
                     </Highlight>
                 </div>
                 <div style={style.skill}>
-                    <Highlight className='c++'>
-                        {"uint8_t familiar_with_embedded = 0xFF & (0x80 >> 7);"}
+                    <Highlight className='python'>
+                        {"def some(): return 'Python too!'"}
                     </Highlight>
                 </div>
                 <div style={style.skill}>
